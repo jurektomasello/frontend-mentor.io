@@ -11,6 +11,8 @@ body {
 
 .main-div {
     width: 30%;
+    height: 650px;
+    margin-bottom: 5%;
     text-align: center;
     background-color: white;
     border-radius: 5%;
@@ -86,5 +88,15 @@ img {
 }
 
 .payment-button:hover {
-    background-color: ;
+    background-color: #d6e1ff;
+    color: #382adf;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cancel-button {
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #757473;
+    text-decoration: none;
 }
