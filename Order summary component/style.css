@@ -1,6 +1,8 @@
 body {
+    background-color:#e0e8ff;
     background-image: url("images/pattern-background-desktop.svg");
     background-size: 140%;
+    background-repeat: no-repeat;
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -51,8 +53,14 @@ img {
     white-space: nowrap;
 }
 
+.plan-price-container-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .music-icon {
-    margin-right: 15px;
+    padding: 0;
+    margin: 0 15px 0 0;
     float: left;
     display: block;
 }
@@ -68,7 +76,7 @@ img {
 }
 
 .change-link {
-    margin: 6% 0 0 30%;
+    margin: 4% 0 0 30%;
     font-size: 0.9em;
     color: #372ab3;
     font-weight: 900;
