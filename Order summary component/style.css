@@ -29,7 +29,7 @@ img {
 }
 
 .main-title {
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-weight: 900;
     margin-bottom: 0;
 }
@@ -49,6 +49,7 @@ img {
     border-radius: 5%;
     background-color: #f8f9fe;
     width: 70%;
+    height: 58px;
     margin: 0 auto;
     padding: 5%;
     display: flex;
@@ -61,8 +62,9 @@ img {
 }
 
 .music-icon {
-    padding: 0;
-    margin: 0 15px 0 0;
+    width: 45px;
+    height: 45px;
+    margin: 6px 20px 0 5px;
     float: left;
     display: block;
 }
@@ -78,7 +80,7 @@ img {
 }
 
 .change-link {
-    margin: 4% 0 0 30%;
+    margin: 15px 0 0 80px;
     font-size: 0.9em;
     color: #372ab3;
     font-weight: 900;
@@ -93,7 +95,7 @@ img {
     border: none;
     display: block;
     margin: 8% auto;
-    width: 330px;
+    width: 345px;
     height: 48px;
     border-radius: 10px;
     background-color: #382adf;
@@ -123,13 +125,17 @@ img {
 }
 
 @media (max-width: 480px) {
+    .plan-price-container {
+        width: 260px;
+    }
+    
     .main-div {
         width: 350px;
-        height: 595px;
+        height: 610px;
     }
 
     .payment-button {
-        width: 300px;
+        width: 290px;
     }
 
     .change-link {
@@ -144,7 +150,7 @@ img {
     }
 
     .payment-button {
-        width: 250px;
+        width: 240px;
     }
 
     .change-link {
@@ -155,6 +161,7 @@ img {
     .plan-price-container {
         display: block;
         text-align: left;
+        width: 210px;
         height: 14%;
     }
 
