@@ -1,0 +1,32 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 16px;
+    color: #ce9797;
+    text-align: center;
+}
+
+.hero-pic {
+    width: 100%;
+    margin-bottom: 16%;
+}
+
+.main-title {
+    font-size: 3em;
+    margin: 0 auto;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.description {
+    margin: 4% 0 0 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
