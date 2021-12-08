@@ -1,4 +1,7 @@
 body {
+    background-image: url("images/bg-pattern-desktop.svg");
+    background-size: ;
+    background-repeat: no-repeat;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 16px;
     color: #ce9797;
@@ -19,7 +22,8 @@ body {
 }
 
 .description {
-    margin: 4% 0 0 0;
+    width: 90%;
+    margin: 4% 0 9% 5%;
 }
 
 .attribution {
@@ -29,4 +33,11 @@ body {
 
   .attribution a {
     color: hsl(228, 45%, 44%);
+  }
+
+  .email-form {
+      width: 310px;
+      height: 50px;
+      border-radius: 30px;
+      padding-left: 25px;
   }
