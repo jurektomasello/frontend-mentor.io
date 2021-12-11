@@ -35,9 +35,23 @@ body {
     color: hsl(228, 45%, 44%);
   }
 
+  .inner-form {
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+  }
+
   .email-form {
       width: 310px;
       height: 50px;
       border-radius: 30px;
       padding-left: 25px;
+  }
+
+  .send-button {
+      width: 70px;
+      height: 50px;
+      display: flex;
+      position: absolute;
+      border-radius: 30px;
   }
