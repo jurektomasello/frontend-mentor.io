@@ -1,6 +1,6 @@
 body {
+    background-color: #fff7f8;
     background-image: url("images/bg-pattern-desktop.svg");
-    background-size: ;
     background-repeat: no-repeat;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 16px;
@@ -29,29 +29,42 @@ body {
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
 
-  .inner-form {
-      display: flex;
-      justify-content: flex-end;
-      position: relative;
-  }
+.inner-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
 
-  .email-form {
-      width: 310px;
-      height: 50px;
-      border-radius: 30px;
-      padding-left: 25px;
-  }
+.sub-inner-form {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
 
-  .send-button {
-      width: 70px;
-      height: 50px;
-      display: flex;
-      position: absolute;
-      border-radius: 30px;
-  }
+.email-form {
+    width: 310px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 25px;
+    background: #fff7f8;
+    border-color: #ce9797;
+    opacity: 0.8;
+}
+
+.send-button {
+    width: 70px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    background: url(/images/hero-desktop.jpg) no-repeat;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
