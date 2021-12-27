@@ -4,17 +4,13 @@
 }
 
 body {
+
     background-color: #fff9f9;
     background-image: url("images/bg-pattern-desktop.svg");
     background-repeat: no-repeat;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 16px;
     color: #ce9797;
     text-align: center;
-}
-
-header {
-    margin-top: 5%;
 }
 
 .logo {
@@ -73,7 +69,7 @@ header {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
     width: 310px;
-    height: 50px;
+    height: 44px;
     border-radius: 30px;
     padding-left: 25px;
     background: #fff7f8;
@@ -89,7 +85,7 @@ header {
 
 .send-button {
     width: 71px;
-    height: 55px;
+    height: 46px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,12 +98,34 @@ header {
     box-shadow: 0px 15px 38px 1px rgba(248, 195, 196, 1);
 }
 
-@media (min-width: 950px) {
 
+/* Media Queries */
+
+@media screen and (min-width: 73.3em) {
+    .main-title {
+        font-size: 4em !important;
+    }
+
+    .email-form {
+        width: 410px;
+        height: 44px;
+    }
+
+    .send-button {
+        width: 90px;
+        height: 49px;
+    }
+
+    .arrow-send-btn {
+        width: 10px;
+    }
+}
+
+@media screen and (min-width: 66.7em) {
     .logo {
         float: left;
         width: 150px;
-        margin: 0 0 9% 10%;
+        margin: 55px 0 9% 10%;
     }
 
     .hero-pic {
@@ -120,18 +138,15 @@ header {
         width: 40%;
     }
 
-    .main-screen {
-        margin-top: 100px;
-    }
-
     .inner-form {
-        display: block;
-        margin-bottom: 0;
+        justify-content: flex-start;
+        width: 0;
+        margin: 0 0 0 10%;
     }
 
     .main-title {
         margin: 0 0 0 10%;
-        font-size: 4em;
+        font-size: 3em;
         width: 100px;
     }
 
@@ -139,6 +154,14 @@ header {
         text-align: left;
         width: 32%;
         line-height: 2;
-        margin: 3% 0 3% 10%;
+        margin: 20px 0 30px 10%;
+    }
+
+    .email-form {
+        height: 38px;
+    }
+
+    .send-button {
+        height: 42px;
     }
 }
