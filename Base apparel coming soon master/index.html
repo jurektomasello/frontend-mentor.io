@@ -24,14 +24,13 @@
   <header>
     <img src="images/logo.svg" alt="Main logo" class="logo">
   </header>
-  
-  <img class="hero-pic pt-4" src="images/hero-mobile.jpg" alt="Our hero">
 
   <div class="main-content">
 
-    <div class="image-container">
-      <img class="hero-pic-big pt-4" src="images/hero-desktop.jpg" alt="Our hero">
-    </div>
+    <picture>
+      <source media="(min-width: 69em)" srcset="images/hero-desktop.jpg">
+      <img class="hero-pic pt-4" src="images/hero-mobile.jpg" alt="Our hero">
+    </picture>
 
     <div class="main-screen">
       <h1 class="main-title">WE'RE <span style="font-weight: 600; color: black;">COMING SOON</span></h1>
@@ -41,12 +40,13 @@
 
       <div class="inner-form">
         <div class="sub-inner-form">
-          <input type="email" id="email" name="email" placeholder="Email Address" class="email-form">
-          <button class="send-button" type="submit">
+          <input type="email" id="email-form" name="email" placeholder="Email Address">
+          <button id="send-button" type="submit" onclick="mailCheck(document.getElementById('email-form').value)">
             <img src="images/icon-arrow.svg" alt="Arrow" width="13px" class="arrow-send-btn">
           </button>
         </div>
       </div>
+      <p id="invalid-mail-error">Please provide a valid e-mail</p>
     </div>
 
   </div>
@@ -60,5 +60,7 @@
   </footer> -->
 
 </body>
+
+<script src="index.js"></script>
 
 </html>
