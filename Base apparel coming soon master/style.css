@@ -12,9 +12,13 @@ body {
     text-align: center;
 }
 
+/* Header */
+
 .logo {
     margin: 5% 60% 0 0;
 }
+
+/* Middle Section and Picture */
 
 .main-title {
     font-size: 2.8em;

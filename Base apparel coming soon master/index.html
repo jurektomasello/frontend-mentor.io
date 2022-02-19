@@ -25,32 +25,35 @@
     <img src="images/logo.svg" alt="Main logo" class="logo">
   </header>
 
-  <div class="main-content">
+  <section>
+    <div class="main-content">
 
-    <picture>
-      <source media="(min-width: 69em)" srcset="images/hero-desktop.jpg">
-      <img class="hero-pic pt-4" src="images/hero-mobile.jpg" alt="Our hero">
-    </picture>
+      <picture>
+        <source media="(min-width: 69em)" srcset="images/hero-desktop.jpg">
+        <img class="hero-pic pt-4" src="images/hero-mobile.jpg" alt="Our hero">
+      </picture>
 
-    <div class="main-screen">
-      <h1 class="main-title">WE'RE <span style="font-weight: 600; color: black;">COMING SOON</span></h1>
+      <div class="main-screen">
+        <h1 class="main-title">WE'RE <span style="font-weight: 600; color: black;">COMING SOON</span></h1>
 
-      <p class="description">Hello fellow shoppers! We're currently building our new fashion store. Add your email below
-        to stay up-to-date with announcements and our launch deals.</p>
+        <p class="description">Hello fellow shoppers! We're currently building our new fashion store. Add your email
+          below
+          to stay up-to-date with announcements and our launch deals.</p>
 
-      <div class="inner-form">
-        <div class="sub-inner-form">
-          <input type="email" id="email-form" name="email" placeholder="Email Address">
-          <img id="error-icon" src="images/icon-error.svg">
-          <button id="send-button" type="submit" onclick="mailCheck(document.getElementById('email-form').value)">
-            <img src="images/icon-arrow.svg" alt="Arrow" width="13px" class="arrow-send-btn">
-          </button>
+        <div class="inner-form">
+          <div class="sub-inner-form">
+            <input type="email" id="email-form" name="email" placeholder="Email Address">
+            <img id="error-icon" src="images/icon-error.svg">
+            <button id="send-button" type="submit" onclick="mailCheck(document.getElementById('email-form').value)">
+              <img src="images/icon-arrow.svg" alt="Arrow" width="13px" class="arrow-send-btn">
+            </button>
+          </div>
         </div>
+        <p id="invalid-mail-error">Please provide a valid e-mail</p>
       </div>
-      <p id="invalid-mail-error">Please provide a valid e-mail</p>
-    </div>
 
-  </div>
+    </div>
+  </section>
 
 </body>
 
